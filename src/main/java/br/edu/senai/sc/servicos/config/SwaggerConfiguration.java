@@ -1,6 +1,5 @@
 package br.edu.senai.sc.servicos.config;
 
-import org.apache.coyote.Request;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
