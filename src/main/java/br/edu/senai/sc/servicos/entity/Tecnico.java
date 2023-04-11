@@ -31,4 +31,7 @@ public class Tecnico {
         return this.nome;
     }
 
+    public void setId(Long codigoTecnico) {
+        this.codigoTecnico = codigoTecnico;
+    }
 }

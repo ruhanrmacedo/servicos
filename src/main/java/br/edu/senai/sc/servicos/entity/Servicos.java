@@ -25,4 +25,7 @@ public class Servicos {
     @OneToMany(mappedBy = "servicos")
     private List<ServicosExecutados> servicosExecutados;
 
+    public void setId(Long codigoServico) {
+        this.codigoServico = codigoServico;
+    }
 }
